@@ -1,4 +1,4 @@
-body {
+body {margin: auto;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -19,3 +19,13 @@ background-repeat: no-repeat;
 background-position: right;}
 section{height: 500px;}
 .single-area{box-shadow: 10px 10px 40px gray;border-radius: 5px;height: 60%;}
+#data{
+  border-left: 7px solid;
+  border-image: linear-gradient (lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#computer{
+  border-left: 7px solid;
+  border-image:linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
